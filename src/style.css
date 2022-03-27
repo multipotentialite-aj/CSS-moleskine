@@ -1,3 +1,32 @@
 body {
     background: #222;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+}
+.main-content {
+    margin: 5em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.moleskine-wrapper {
+    max-width: calc(100% / 6);
+    max-width: 10em;
+}
+.moleskine-notebook {
+    height: 250px;
+    width: 175px;
+    position: relative;
+    transition: .4s ease-in-out;
+    border-radius: 5px 15px 15px 5px;
+    transform-origin: left center 0px;
+    display: inline-block;
+    margin: 30px;
+    perspective: 800px;
+}
+.notebook-cover {
+    background: #cc4b48;
+    height: 250px;
 }
